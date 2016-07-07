@@ -1,0 +1,142 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #060606;
+}
+
+.jumbotron {
+	background-color: unset;
+}
+
+.container {
+  max-width: 970px;
+}
+
+.jumbotron .header img {
+	width: 180px;
+}
+
+.jumbotron .header span {
+	color: #fff;
+	margin-right: 30px;
+	margin-left: -100px;
+}
+
+.btn-default {
+	border: 1px solid #0393FF;
+	color: #0393FF;
+	background-color: unset;
+	border-radius: 0;
+	padding: 8px 20px;
+}
+
+.btn-default:hover {
+	border: 1px solid #0393FF;
+	background-color: #0393FF;
+	color: #fff;
+}
+
+.main {
+	text-align: center;
+	margin-top: 90px;
+}
+
+.main h1 {
+	color: white;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.main form {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.form-inline input {
+	background-color: #060606;
+	border: none;
+	border-bottom: 1px solid #fff;
+	margin-right: 20px;
+	border-radius: 0;
+	font-size: 18px;
+	width: 400px; 
+}
+
+.form-inline input:focus {
+	box-shadow: unset;
+	border-bottom: 1px solid #0393ff;
+}
+
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+  text-align: center;
+  color: #fff;
+  margin-top: 180px;
+}
+
+h2 {
+	color: #0393FF;
+	font-weight: 300;
+	font-size: 32px;
+}
+
+p {
+	font-size: 16px;
+	color: #fff;
+}
+
+.supporting .thumbnail {
+	border: unset;
+	border-radius: 0;
+	background-color: unset;
+}
+
+/*.supporting .thumbnail img {
+	width: 100%;
+}*/
+
+#movie-list {
+	margin-top: 40px;
+}
+
+.feature {
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	margin-top: 70px;
+	height: 380px;
+	padding-top: 150px;
+}
+
+.footer {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.footer h4 {
+	color: #fff;
+	font-weight: 300;
+}
+
+.footer ul li {
+	list-style: none;
+	color: #0393FF;
+}
+
+.footer ul {
+	padding-left: 0;
+}
+
+@media (max-width: 767px) {
+	.form-inline input {
+		margin-bottom: 20px;
+	}
+}
+
+

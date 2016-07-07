@@ -1,0 +1,109 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg) no-repeat fixed;
+	background-size: 100%;
+}
+
+.header h1 {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-top: 30px;
+	letter-spacing: 0.05em;
+	text-align: left;
+}
+
+.header ul {
+	margin-top: 40px;
+}
+
+.header ul li {
+	list-style: none;
+	display: inline;
+	margin-right: 5px;
+	
+}
+
+.nav>li>a {
+	color: #F01251;
+	font-size: 16px;
+}
+
+.nav-pills li a:hover {
+	background-color: #EEEEEE;
+	text-decoration: none;
+	
+}
+
+.nav-pills li.active a {
+	background-color: #F01251;
+	padding: 10px 40px;
+}
+
+.nav-pills li.active a:hover,.nav-pills li.active a:focus {
+	background-color: #428BCA;
+}
+
+.main {
+	margin-top: 45px;
+}
+
+.main img {
+	width: 370px;
+}
+
+.main .col-md-4 {
+	text-align: center;
+}
+
+.main .row {
+	margin-bottom: 20px; 
+}
+
+.footer {
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+.footer p {
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+	.footer p:nth-child(4) {
+		clear: left;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	.main img {
+		width: 300px;
+	}
+	.footer p:nth-child(3) {
+		clear: left;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.main img {
+		width: 230px;
+	}
+}
+
+@media (max-width: 767px) {
+	.main img {
+		width: 80%;
+	}
+}
